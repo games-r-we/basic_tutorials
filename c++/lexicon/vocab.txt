@@ -1,0 +1,25 @@
+null    = empty or non existant.
+
+primative data types
+boolean is either true or false.
+integer is a 32 bit number.
+char    is a single character. eg.  'a'(note the single quotes)
+
+other data types
+float  = 32 bit decimal
+long   = 64 bit number
+double = 64 bit decimal
+String = a string of characters "just like this" (note the double quotes)
+
+
+|| equals or
+&& equals and
+
+
+!= equals not equals
+>= equals greater than or equal to
+<= equals less than or equal to
+< equals greater than
+> equals less    than
+== equals comparison equals
+= equals assigns
