@@ -5,6 +5,12 @@ Think of it as an Egg Carton where the container is the array and the eggs are t
 Example
 int [] carton = {1,2,3,4,5,6,7,8,9,10,11,12};
 
+int [] carton;
+carton[0] = 1
+carton[1] = 1
+carton[2] = 1
+carton[3] = 1
+
 this is an array of integers. it has 12 spots
 so carton[0] equals 1.
 so carton[1] equals 2.

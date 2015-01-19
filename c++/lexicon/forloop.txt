@@ -5,15 +5,16 @@ One of its main uses is to walk through an array.
 for example lets say that i create an array of integers, and this particular array has 100 items. that would be terrible to have to write a line to get each item.
 
 eg
-array[0]
-array[1]
-array[2]
-array[3]
+cout << array[0];
+cout << array[1];
+cout << array[2];
+cout << array[3];
 ...
 
 as opposed to this
 for(int i = 0; i < 100; i++){
-  array[i]
+  cout << array[i];
 }
+
 
 the second will take the the same amount of lines no matter what, where as the first one will always equal one line per item.

@@ -1,19 +1,22 @@
-null    = empty or non existant.
-
 primative data types
 boolean is either true or false.
-integer is a 32 bit number.
-char    is a single character. eg.  'a'(note the single quotes)
+integer is a 32 bit whole number.
+char    is a single character. eg.  'a' (note the single quotes)
 
+String = a string of characters "just like this" (note the double quotes)
 other data types
 float  = 32 bit decimal
 long   = 64 bit number
 double = 64 bit decimal
-String = a string of characters "just like this" (note the double quotes)
+
+
+int a = 1;
+int b = 2;
 
 
 || equals or
 && equals and
+null    = empty or non existant.
 
 
 != equals not equals
