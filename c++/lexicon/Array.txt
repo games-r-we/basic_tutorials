@@ -2,19 +2,44 @@ Array
 An Array is a container, generally for similar items.
 Think of it as an Egg Carton where the container is the array and the eggs are the items within the array.
 
-Example
+Note In Computer Science everthing starts at 0.
+for example it an array has 3 elements the first will be at spot 0 and the third element will be at spot 2.
+
+array[0] = 1st element;
+array[1] = 2nd element;
+array[2] = 3rd element;
+
+
+This is an example about how to create an array in c++
 int [] carton = {1,2,3,4,5,6,7,8,9,10,11,12};
+this will create an array with 12 elements. and put an element in each spot.
 
-int [] carton;
-carton[0] = 1
-carton[1] = 1
-carton[2] = 1
-carton[3] = 1
+carton[0]  = 1;
+carton[1]  = 2;
+carton[2]  = 3;
+carton[3]  = 4;
+carton[4]  = 5;
+carton[5]  = 6;
+carton[6]  = 7;
+carton[7]  = 8;
+carton[8]  = 9;
+carton[9]  = 10;
+carton[10] = 11;
+carton[11] = 12;
+// it is null because spot 12 would be the 13th element which does not exsist because there are only 12 elements.
+carton[12] = null;
 
-this is an array of integers. it has 12 spots
-so carton[0] equals 1.
-so carton[1] equals 2.
-so carton[2] equals 3.
-
-carton[12] equals null;
-note that the arrays start at spot 0.
+// this just creates an empty array with 12 spots 
+int [12] carton;
+so carton[0]  equals 1.
+so carton[1]  equals 2.
+so carton[2]  equals 3.
+so carton[3]  equals 4.
+so carton[4]  equals 5.
+so carton[5]  equals 6.
+so carton[6]  equals 7.
+so carton[7]  equals 8.
+so carton[8]  equals 9.
+so carton[9]  equals 10.
+so carton[10] equals 11.
+so carton[11] equals 12.

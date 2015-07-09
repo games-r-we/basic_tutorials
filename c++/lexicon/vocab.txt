@@ -1,10 +1,10 @@
-primative data types
+PRIMATIVE DATA TYPES
 boolean is either true or false.
 integer is a 32 bit whole number.
 char    is a single character. eg.  'a' (note the single quotes)
 
+OTHER DATA TYPES
 String = a string of characters "just like this" (note the double quotes)
-other data types
 float  = 32 bit decimal
 long   = 64 bit number
 double = 64 bit decimal
@@ -14,15 +14,19 @@ int a = 1;
 int b = 2;
 
 
-|| equals or
-&& equals and
-null    = empty or non existant.
+||   equals  or
+&&   equals  and
+null equals  empty or non existant.
 
 
-!= equals not equals
->= equals greater than or equal to
-<= equals less than or equal to
-< equals greater than
-> equals less    than
-== equals comparison equals
-= equals assigns
+!=  equals not equal
+>=  equals greater than or equal to
+<=  equals less than or equal to
+<   equals greater than
+>   equals less    than
+==  equals comparison equal
+
+=   will assign a value for example  int i = 1;  makes i equal to 1
+
+//    equals a single line comment
+/* */ equals a block comment just put as much as you want inbetween the stars
